@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The countdown.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrapper">
+    <section class="card" role="region" aria-labelledby="countdown-title">
+      <h1 id="countdown-title" class="title">What's About To Happen?</h1>
+      <div id="countdown" class="countdown" aria-live="polite">
+        <div class="time-segment">
+          <span class="number" id="days">0</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="time-segment">
+          <span class="number" id="hours">0</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="time-segment">
+          <span class="number" id="minutes">0</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="time-segment">
+          <span class="number" id="seconds">0</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+      
+    </section>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
