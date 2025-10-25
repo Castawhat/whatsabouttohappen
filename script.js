@@ -1,6 +1,6 @@
 // Countdown to Oct 26, 2025 at local midnight
 (function(){
-  const target = new Date(2025, 9, 26); // local midnight Oct 26, 2025
+  const target = new Date(2025, 9, 27); // local midnight Oct 26, 2025
 
   const els = {
     days: document.getElementById('days'),
